@@ -15,7 +15,7 @@ export default function Header() {
       {/* Left: Logo */}
       <div className="header-left">
         <Link to="/" className="header-logo">
-          <img src={`${process.env.PUBLIC_URL}/images/SVGLogo.svg`} alt="Logo" className="logo-image" />
+          <img src="/wellness-event/images/SVGLogo.svg" alt="Logo" className="logo-image" />
         </Link>
       </div>
 

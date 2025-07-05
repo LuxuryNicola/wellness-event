@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Parties from "./components/Parties";
@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop"; // link will take you top to
 
 function App() {
   return (
-    <Router>
+    <Router basename="/wellness-event">
       <ScrollToTop />
       <div className="app-container">
         <Header />

@@ -6,11 +6,11 @@ import Parties from "./components/Parties";
 import Corporate from "./components/Corporate";
 import Weddings from "./components/Weddings";
 import About from "./components/About";
-import ScrollToTop from "./components/ScrollToTop"; // link will take you top top of page
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <Router basename="/wellness-event">
+    <Router>
       <ScrollToTop />
       <div className="app-container">
         <Header />
@@ -21,7 +21,6 @@ function App() {
             <Route path="/parties" element={<Parties />} />
             <Route path="/corporate" element={<Corporate />} />
             <Route path="/weddings" element={<Weddings />} />
-          
           </Routes>
         </div>
       </div>
@@ -29,6 +28,6 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
 
 

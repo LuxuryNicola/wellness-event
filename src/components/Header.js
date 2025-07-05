@@ -13,11 +13,9 @@ export default function Header() {
   return (
     <header className="header">
       {/* Left: Logo */}
-      <div className="header-left">
-        <Link to="/" className="header-logo">
-          <img src="/wellness-event/images/SVGLogo.svg" alt="Logo" className="logo-image" />
-        </Link>
-      </div>
+      <div>
+    <span>Logo</span>
+  </div>
 
       {/* Center: Nav Links */}
       <nav className="nav-links">

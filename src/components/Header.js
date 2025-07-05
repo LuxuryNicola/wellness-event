@@ -13,9 +13,11 @@ export default function Header() {
   return (
     <header className="header">
       {/* Left: Logo */}
-      <div>
-    <span>Logo</span>
-  </div>
+      <div className="header-left">
+        <Link to="/" className="header-logo">
+          <img src={`${process.env.PUBLIC_URL}/images/SVGLogo.svg`} alt="Logo" className="logo-image" />
+        </Link>
+      </div>
 
       {/* Center: Nav Links */}
       <nav className="nav-links">

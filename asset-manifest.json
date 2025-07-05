@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b99ef7b1.css",
-    "main.js": "/static/js/main.80ff562a.js",
-    "static/js/453.6204686c.chunk.js": "/static/js/453.6204686c.chunk.js",
-    "index.html": "/index.html",
-    "main.b99ef7b1.css.map": "/static/css/main.b99ef7b1.css.map",
-    "main.80ff562a.js.map": "/static/js/main.80ff562a.js.map",
-    "453.6204686c.chunk.js.map": "/static/js/453.6204686c.chunk.js.map"
+    "main.css": "/wellness-event/static/css/main.b99ef7b1.css",
+    "main.js": "/wellness-event/static/js/main.db4a6710.js",
+    "static/js/453.6204686c.chunk.js": "/wellness-event/static/js/453.6204686c.chunk.js",
+    "index.html": "/wellness-event/index.html",
+    "main.b99ef7b1.css.map": "/wellness-event/static/css/main.b99ef7b1.css.map",
+    "main.db4a6710.js.map": "/wellness-event/static/js/main.db4a6710.js.map",
+    "453.6204686c.chunk.js.map": "/wellness-event/static/js/453.6204686c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b99ef7b1.css",
-    "static/js/main.80ff562a.js"
+    "static/js/main.db4a6710.js"
   ]
 }

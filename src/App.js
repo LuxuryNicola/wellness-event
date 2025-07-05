@@ -1,8 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div style={{ padding: '2rem', fontSize: '2rem' }}>
-      ✅ App Component Rendered
-    </div>
+    <>
+      <Header />
+      <div>Testing Header only</div>
+    </>
   );
 }
 

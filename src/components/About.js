@@ -9,7 +9,7 @@ export default function AboutPage(){
       <section className="A-intro">
         <div className="A-intro-content">
         <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/bamboo.jpg`} alt="Mission visual" className="A-intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/Bamboo.jpg`} alt="Mission visual" className="A-intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="A-intro-text">
@@ -50,7 +50,7 @@ export default function AboutPage(){
         </div>
 
         <div className="A-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/yoga.jpg`} alt="forest" className="A-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/Yoga.jpg`} alt="forest" className="A-about-image" />
           <div className="A-image-overlay"></div>
         </div>
       </section>

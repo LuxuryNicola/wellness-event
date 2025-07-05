@@ -59,7 +59,7 @@ export default function HomePage() {
           </p>
         </div>
         <div className="about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/yoga.jpg`} alt="Nicola teaching yoga" className="about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/Yoga.jpg`} alt="Nicola teaching yoga" className="about-image" />
           <div className="a-image-overlay"></div>
         </div>
       </section>

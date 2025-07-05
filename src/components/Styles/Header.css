@@ -1,0 +1,169 @@
+/* ===== HEADER BASE ===== */
+.header {
+    background-color: #fbe8ea; /* lightish pink */
+    color: white;
+    padding: 3px;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  /* ===== LOGO ===== */
+  .header-logo {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .header-title:hover {
+    opacity: 0.8;
+  }
+  
+  .logo-image {
+    height: 140px;
+    width: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    
+  }
+  
+  /* Responsive size on smaller screens */
+  @media (max-width: 768px) {
+    .logo-image {
+      height: 100px;
+    }
+  }
+  
+  /* ===== NAVIGATION LINKS ===== */
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nav-links::before {
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgba(10, 10, 10, 0.3);
+    display: block;
+  }
+
+  .nav-item.active {
+    color: #b76e79;
+    font-weight: 600;
+   
+  }
+  
+  /* ===== HEADER RIGHT ===== */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* ===== ICONS ===== */
+  .header-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .header-icon-link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* ===== MENU ICON ===== */
+  .menu-icon {
+    font-size: 10rem;
+    cursor: pointer;
+    color: black;
+  }
+  
+  /* ===== MOBILE STYLES ===== */
+  @media (max-width: 768px) {
+    /* Hide nav links */
+    .nav-links {
+      display: none;
+    }
+  
+    /* Stack header-right items */
+    .header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    /* Center icons */
+    .header-icons {
+      justify-content: center;
+      margin-top: 5px;
+    }
+  
+    /* Keep menu button to right */
+    .menu-icon {
+      align-self: flex-end;
+    }
+  }
+  
+/* ===== DRAWER STYLES ===== */
+/* Drawer container */
+.MuiDrawer-paper {
+  width: 250px;
+  background-color: #feebfb !important;
+  color: black !important;
+  padding: 20px;
+}
+
+/* Drawer links */
+.drawer-link {
+  display: block;
+  text-decoration: none;
+  color: black !important;
+}
+
+/* Hover effect */
+.drawer-link:hover {
+  color: #666 !important;
+}
+
+/* Active link (bold and different color) */
+.drawer-link.active .MuiListItemText-primary {
+  font-weight: bold !important;
+  color: #1a3d1a !important;
+}
+
+  

@@ -1,0 +1,323 @@
+.about-container {  
+    color: #333;
+    background-color: #fbe8ea;
+    padding-bottom: 60px; /* prevent footer overlap */
+  }
+  
+    /*///////////////////////////////////////////////////////////////////////////*/
+    
+    .A-intro-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px; /* Increased gap for more space between image and text */
+      margin-bottom: 30px;
+      text-align: left;
+      justify-content: flex-start;
+    }
+    
+    .image-overlay-wrapper {
+      position: relative;
+      width: 700px;
+      height: 500px;
+      flex-shrink: 0;
+      padding-top: 25px;
+    }
+    
+    .A-intro-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 0px; /* optional: soften edges */
+    }
+    
+    .image-overlay {
+      position: absolute;
+      top: 25px; /* match padding-top */
+      left: 0;
+      width: 100%;
+      height: calc(100% - 25px); /* adjust for padding */
+      background-color: #fbe8ea; /* match section background */
+      opacity: 0.25; /* very light overlay */
+      pointer-events: none; /* let clicks pass through */
+      z-index: 1;
+    }
+    
+    
+    .A-intro-text {
+      flex: 1;
+      font-family: 'Merriweather', serif;
+      font-weight: 300;            /* Light/thin weight */
+      line-height: 1.6;            /* Space between lines */
+      letter-spacing: 0.3px;       /* Slight letter spacing for balance */
+      font-size: 1.6rem;           /* Slightly larger for readability */
+      align-items: center;
+      text-align: left;
+      padding-top: 40px;
+      color: #333333;
+    }
+
+    .A-intro-text p {
+      margin-top: 0;
+    }
+
+    
+    .book-image-top {
+      width: 80px;
+      height: auto;
+      margin-bottom: 4px; /* smaller space below image */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+     /*//////////////////////////////////////////////////////////////
+
+  /* SPLIT to make the space nicer  */
+.section-bar {
+  width: 100%;
+  background-color: white;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-bar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.section-bar-line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.section-bar-title {
+  font-family: 'Domine', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 20px;
+  color: #333;
+  white-space: nowrap;
+}
+
+/*/////////////////////////////////////////////////////////////*/
+
+/* Mobile: stack image on top */
+@media (max-width: 768px) {
+  .A-intro-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .A-intro-text {
+    text-align: center;
+  }
+}
+
+
+/*////////////////////////////////////////////////////////////////*/
+  
+  /* About */
+  .A-about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0;
+    min-height: 400px;
+    background-color: #cbd5c0;
+  }
+  
+  /* Text column */
+  .A-about-text {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Image column */
+  .A-about-image-wrapper {
+    position: relative;
+    width: 700px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  
+  .A-about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .A-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cbd5c0; /* Match section background */
+    opacity: 0.2; /* Light tint */
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* Heading styling */
+  .A-about-text h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  /*////////////////MOBILE///////////////////////////
+  
+ /* Mobile: stack image on top */
+@media (max-width: 768px) {
+  .A-intro-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .A-image-overlay-wrapper {
+    display: block;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    position: relative; /* keeps overlay positioning intact */
+  }
+
+  .A-intro-image {
+    height: 250px; /* or 50vh if you want half viewport height */
+    object-fit: cover;
+    padding-top: 25px;
+  }
+
+  .A-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .A-intro {
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .A-intro-text p {
+    margin: 0;
+  }
+
+
+  .A-intro-text {
+    text-align: center;
+    font-size: 1.1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 3rem;
+    margin-top: 0.5rem; /* Reduce this further if needed */
+    padding-top: 0.5rem;
+  }
+
+  .about-container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .book-image-top{
+    padding-top: 0;
+    margin-top: -2rem;
+
+  }
+}
+  
+
+  /*//////////////////////////////////////*/
+
+  /* Mobile: stack vertically */
+  @media (max-width: 768px) {
+    .A-about-section {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+  
+    .A-about-image-wrapper {
+      height: 250px;
+      margin: 0;
+      padding: 0;
+      position: relative; /* ensure overlay positioning works */
+    }
+  
+    .A-about-image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  
+    .A-image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      /* if it’s invisible, still takes up space unless positioned absolutely */
+      pointer-events: none;
+    }
+  }
+
+  /*//////////////////////////////////////*/
+
+/*////////////////////////////////////////////////////////////
+  
+  /* CTA */
+  .A-cta {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbe8ea;
+  }
+  
+  .A-cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .A-cta-button {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #ebb0dc;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .A-cta-button:hover {
+    background-color: #b76e79;
+  }
+  
+
+  
+  
+  

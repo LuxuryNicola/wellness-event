@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wellness-event/static/css/main.b99ef7b1.css",
-    "main.js": "/wellness-event/static/js/main.db4a6710.js",
+    "main.js": "/wellness-event/static/js/main.40b7fbc1.js",
     "static/js/453.6204686c.chunk.js": "/wellness-event/static/js/453.6204686c.chunk.js",
     "index.html": "/wellness-event/index.html",
     "main.b99ef7b1.css.map": "/wellness-event/static/css/main.b99ef7b1.css.map",
-    "main.db4a6710.js.map": "/wellness-event/static/js/main.db4a6710.js.map",
+    "main.40b7fbc1.js.map": "/wellness-event/static/js/main.40b7fbc1.js.map",
     "453.6204686c.chunk.js.map": "/wellness-event/static/js/453.6204686c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b99ef7b1.css",
-    "static/js/main.db4a6710.js"
+    "static/js/main.40b7fbc1.js"
   ]
 }

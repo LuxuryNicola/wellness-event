@@ -9,7 +9,7 @@ export default function CorporatePage() {
       <section className="C-intro">
         <div className="C-intro-content">
           <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/corporatecalm.jpg`} alt="Mission visual" className="C-intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/country.jpg`} alt="Mission visual" className="C-intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="C-intro-text">
@@ -49,8 +49,8 @@ export default function CorporatePage() {
           <b>Offsite experiences could include: </b>  <br></br> 
           Nature retreats and fitness challenges. <br></br>
           Team-building hikes <br></br>
-          Spa days <br></br>
-          Sound Healing workshops <br></br><br></br>
+          Spa days and Sound Healing <br></br> <br></br>
+          
 
           Every company and employee is different and we want to curate a sessions that show employees they are valued, 
           creating a more positive and energized workplace.
@@ -58,7 +58,7 @@ export default function CorporatePage() {
         </div>
 
         <div className="C-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/country.jpg`} alt="forest" className="C-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/corporatecalm.jpg`} alt="forest" className="C-about-image" />
           <div className="C-image-overlay"></div>
         </div>
       </section>

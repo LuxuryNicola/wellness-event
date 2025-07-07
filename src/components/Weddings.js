@@ -59,7 +59,7 @@ export default function WeddingPage() {
         </div>
 
         <div className="W-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/corporatecalm.jpg`} alt="forest" className="W-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/loch.jpg`} alt="forest" className="W-about-image" />
           <div className="W-image-overlay"></div>
         </div>
       </section>

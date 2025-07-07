@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="intro">
         <div className="intro-content">
           <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/happy.jpg`} alt="Homescreen" className="intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/happy.webp`} alt="Homescreen" className="intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="intro-text">
@@ -59,7 +59,7 @@ export default function HomePage() {
           </p>
         </div>
         <div className="about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/Yoga.jpg`} alt="Nicola teaching yoga" className="about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/Yoga.webp`} alt="Nicola teaching yoga" className="about-image" />
           <div className="a-image-overlay"></div>
         </div>
       </section>

@@ -9,7 +9,7 @@ export default function WeddingPage() {
       <section className="W-intro">
         <div className="W-intro-content">
           <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/beach.jpg`} alt="Mission visual" className="W-intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/beach.webp`} alt="Mission visual" className="W-intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="W-intro-text">
@@ -59,7 +59,7 @@ export default function WeddingPage() {
         </div>
 
         <div className="W-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/loch.jpg`} alt="forest" className="W-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/loch.webp`} alt="forest" className="W-about-image" />
           <div className="W-image-overlay"></div>
         </div>
       </section>

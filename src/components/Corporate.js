@@ -9,7 +9,7 @@ export default function CorporatePage() {
       <section className="C-intro">
         <div className="C-intro-content">
           <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/country.jpg`} alt="Mission visual" className="C-intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/country.webp`} alt="Mission visual" className="C-intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="C-intro-text">
@@ -58,7 +58,7 @@ export default function CorporatePage() {
         </div>
 
         <div className="C-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/corporatecalm.jpg`} alt="forest" className="C-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/corporatecalm.webp`} alt="forest" className="C-about-image" />
           <div className="C-image-overlay"></div>
         </div>
       </section>

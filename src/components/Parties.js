@@ -9,7 +9,7 @@ export default function PartyPage() {
       <section className="P-intro">
         <div className="P-intro-content">
           <div className="image-overlay-wrapper">
-            <img src={`${process.env.PUBLIC_URL}/images/Lake.jpg`} alt="Mission visual" className="P-intro-image" />
+            <img src={`${process.env.PUBLIC_URL}/images/Lake.webp`} alt="Mission visual" className="P-intro-image" />
             <div className="image-overlay"></div>
           </div>
           <div className="P-intro-text">
@@ -59,7 +59,7 @@ export default function PartyPage() {
         </div>
 
         <div className="P-about-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/images/waterfall.jpg`} alt="forest" className="P-about-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/waterfall.webp`} alt="forest" className="P-about-image" />
           <div className="P-image-overlay"></div>
         </div>
       </section>

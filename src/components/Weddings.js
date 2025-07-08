@@ -15,7 +15,7 @@ export default function WeddingPage() {
           <div className="W-intro-text">
             <img src={`${process.env.PUBLIC_URL}/images/cheers.png`} alt="doodlecoffee" className="cheers-image-top" />
             <p>
-              <i>Elevate Your Team with Corporate Wellness Experiences</i>
+              <i>Aligning Yourself Before The Big Day</i>
             </p>
           </div>
         </div>

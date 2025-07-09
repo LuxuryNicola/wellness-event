@@ -41,8 +41,8 @@ export default function PartyPage() {
             Whether you're planning a birthday celebration, retreat, private gathering or taking some time to enjoy life with a little more breathing space.
             We will bring the calm, connection, and luxury to that day.<br></br><br></br>
 
-            We work with you to design wellness experiences that suit your event’s purpose and energy. 
-            From sourcing top talent for your already established event to working with you to create something beautiful. <br></br><br></br>
+           We work with you to design wellness experiences that suit your event’s purpose and energy,
+           sourcing top talent for your event. <br></br><br></br>
 
             If this service is right for you please reach out and include:<br></br><br></br>
 
@@ -52,7 +52,7 @@ export default function PartyPage() {
 
            <i><b> Indoor or outdoor venues</b></i> <br></br>
 
-            <i><b>One-off bookings or full event planning</b></i> <br></br><br></br>
+            <i><b>Service required</b></i> <br></br><br></br>
 
             We’re here to make sure your wellness element is seamlessly integrated, beautifully delivered, and deeply memorable—whatever the occasion.
           </p>

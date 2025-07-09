@@ -39,21 +39,21 @@ export default function CorporatePage() {
           <h2>Pause. Reset</h2>
           <p>
           Wellness is essential for fostering a healthy, motivated, and productive workforce. <br></br> 
-          Prioritizing employee wellbeing not only reduces stress and absenteeism but also boosts morale and retention. <br></br>
+          Prioritising employee wellbeing not only reduces stress and absenteeism but also boosts morale and retention. <br></br>
           Companies can integrate wellness into their culture through a variety of engaging events. <br></br> <br></br>
           <b>Onsite options might include:</b><br></br>
           Yoga or meditation sessions. <br></br> 
           Wellness workshops.  <br></br>
-          healthy cooking demos. <br></br><br></br>
+          Healthy cooking demos. <br></br><br></br>
           
           <b>Offsite experiences could include: </b>  <br></br> 
           Nature retreats and fitness challenges. <br></br>
-          Team-building hikes <br></br>
-          Spa days and Sound Healing <br></br> <br></br>
+          Team-building hikes. <br></br>
+          Spa days and Sound Healing. <br></br> <br></br>
           
 
           Every company and employee is different and we want to curate a sessions that show employees they are valued, 
-          creating a more positive and energized workplace.
+          creating a more positive and energised workplace.
           </p>
         </div>
 

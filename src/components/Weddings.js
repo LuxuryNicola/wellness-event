@@ -15,7 +15,7 @@ export default function WeddingPage() {
           <div className="W-intro-text">
             <img src={`${process.env.PUBLIC_URL}/images/cheers.png`} alt="doodlecoffee" className="cheers-image-top" />
             <p>
-              <i>Aligning Yourself Before The Big Day</i>
+              <i>Aligning Yourself Before <br></br> The Big Day</i>
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function WeddingPage() {
 
             <b>We can support with:</b><br></br><br></br>
 
-            <i>Planning and curating wellness-focused hen/stag parties</i><br></br>
+            <i>Curating wellness-focused hen/stag parties</i><br></br>
 
             <i>Sourcing instructors for private sessions (yoga, pilates, reiki, sound healing, etc.)</i><br></br>
 
@@ -53,7 +53,7 @@ export default function WeddingPage() {
 
             From quiet moments of calm to playful pre-wedding wellness, 
             we’ll help you create experiences that feel nourishing, joyful, and completely you. <br></br><br></br>
-            <b>Contact us to begin the wellness journey</b>
+            <b>Contact us to begin the wellness journey.</b>
 
           </p>
         </div>
